@@ -12,7 +12,7 @@ int main(int argc, const char** argv) {
 
     cout << "Enter your name: " <<endl;
     string name;
-    cin >> name;
+    getline(cin, name);
     cout << "Hello World! " << name << "\n";
     puts("Take this"); // can also use this. It is a Valid C++ 
     return 0;
